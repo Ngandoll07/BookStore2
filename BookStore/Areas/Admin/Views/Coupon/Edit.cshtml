@@ -1,0 +1,55 @@
+﻿@model BookStore.Models.Coupon
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Create</h2>
+<div class="content-wrapper">
+    <div class="page-header">
+        <h3 class="page-title"> Thêm mới khuyến mãi </h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/admin/category/index">Danh mục</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Thêm mới</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Thông tin thêm mới danh mục </h3>
+            <div class="card-body">
+                @using (Html.BeginForm("Edit", "Coupon", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        <label for="ID">ID</label>
+                        @Html.TextBoxFor(x => x.ID, new { @class = "form-control", @placeholder = "ID Khuyến mãi" })
+                        @Html.ValidationMessageFor(x => x.ID, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label for="Code">Code khuyến mãi</label>
+                        @Html.TextBoxFor(x => x.Code, new { @class = "form-control", @placeholder = "Code khuyến mãi" })
+                        @Html.ValidationMessageFor(x => x.ID, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label for="Discount">Giảm giá</label>
+                        @Html.TextBoxFor(x => x.Discount, new { @class = "form-control", @placeholder = "Giá giảm" })
+                        @Html.ValidationMessageFor(x => x.Discount, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label for="HSD">Ngày hết hạn</label>
+                        @Html.TextBoxFor(x => x.HSD, new { @class = "form-control", @placeholder = "Ngày hết hạn" })
+                        @Html.ValidationMessageFor(x => x.HSD, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <a href="/admin/coupon" class="btn btn-danger">Quay lại</a>
+                        <button type="submit" class="btn btn-success mr-2">Submit</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+</div>
