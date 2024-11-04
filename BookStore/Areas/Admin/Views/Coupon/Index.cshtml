@@ -83,7 +83,7 @@
                             <td>@i</td>
                             <td>@item.ID</td>
                             <td>@item.Code</td>
-                            <td>@item.Discount</td>
+                            <td>@String.Format("{0:N0} ₫", item.Discount)</td>
                             <td>@item.HSD </td>
                             <td>
                                 <a href="/admin/coupon/edit/@item.ID" class="btn btn-sm btn-primary">Sửa</a>

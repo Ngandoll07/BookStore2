@@ -21,5 +21,17 @@ namespace BookStore.Controllers
             var items = db.Books.Take(12).ToList();
             return PartialView(items);
         }
+        public ActionResult ProductDetail(string id)
+        {
+            // Retrieve the product by ID
+            var product = db.Books.Find(id);
+
+            if (product == null)
+            {
+                return HttpNotFound(); // Return 404 if product not found
+            }
+
+            return View(product); // Pass the product to the view
+        }
     }
 }

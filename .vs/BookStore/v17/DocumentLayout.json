@@ -3,144 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|c:\\users\\lenovo\\documents\\s\u00E1ch\\bookstore\\bookstore\\views\\category\\_partialmenucate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\category\\_partialmenucate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|c:\\users\\lenovo\\documents\\s\u00E1ch\\bookstore\\bookstore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|c:\\users\\lenovo\\documents\\s\u00E1ch\\bookstore\\bookstore\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|c:\\users\\lenovo\\documents\\s\u00E1ch\\bookstore\\bookstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|c:\\users\\lenovo\\documents\\s\u00E1ch\\bookstore\\bookstore\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|c:\\users\\lenovo\\documents\\s\u00E1ch\\bookstore\\bookstore\\views\\category\\partial_category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\category\\partial_category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|c:\\users\\lenovo\\documents\\s\u00E1ch\\bookstore\\bookstore\\views\\menu\\_menuproductcate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\menu\\_menuproductcate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|c:\\users\\lenovo\\documents\\s\u00E1ch\\bookstore\\bookstore\\views\\product\\partial_itemsbycate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\product\\partial_itemsbycate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|c:\\users\\lenovo\\documents\\s\u00E1ch\\bookstore\\bookstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\views\\trangchu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\trangchu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\views\\menu\\_menuproductcate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\menu\\_menuproductcate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\content\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\content\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|c:\\users\\lenovo\\documents\\s\u00E1ch\\bookstore\\bookstore\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\coupon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\coupon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\coupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\coupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\tacgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\tacgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\controllers\\tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\controllers\\tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\coupon\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\coupon\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\coupon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\coupon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\tacgia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\tacgia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\tacgia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\tacgia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\tacgia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\tacgia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\models\\dbbookmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\models\\dbbookmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\bookstore\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|c:\\users\\lenovo\\documents\\s\u00E1ch\\bookstore\\bookstore\\content\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D167AC5C-35BA-4228-A902-DA0276F638F4}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\content\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -155,15 +59,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BookStore\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAKUAAAAAAAAAAAAawJ4AAAAmAAAA",
+              "Title": "_PartialMenuCate.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Category\\_PartialMenuCate.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Category\\_PartialMenuCate.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Category\\_PartialMenuCate.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Category\\_PartialMenuCate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T05:30:00.923Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-11-04T16:47:42.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "BookStore\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "BookStore\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:45:20.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Product\\ProductDetail.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Product\\ProductDetail.cshtml",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAAALMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T16:19:21.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "BookStore\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "BookStore\\Controllers\\MenuController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:45:52.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Partial_Category.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Category\\Partial_Category.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Category\\Partial_Category.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Category\\Partial_Category.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Category\\Partial_Category.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T16:08:32.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "BookStore\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "BookStore\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAywBoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:24:16.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_MenuProductCate.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Menu\\_MenuProductCate.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Menu\\_MenuProductCate.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Menu\\_MenuProductCate.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Menu\\_MenuProductCate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T16:48:21.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Partial_ItemsByCate.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Product\\Partial_ItemsByCate.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Product\\Partial_ItemsByCate.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Product\\Partial_ItemsByCate.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Product\\Partial_ItemsByCate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T16:18:13.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BookStore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BookStore\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:45:24.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "BookStore\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwDsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:25:27.444Z",
               "EditorCaption": ""
             },
             {
@@ -192,412 +212,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Partial_ItemsByCate.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Product\\Partial_ItemsByCate.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Views\\Product\\Partial_ItemsByCate.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Product\\Partial_ItemsByCate.cshtml",
-              "RelativeToolTip": "BookStore\\Views\\Product\\Partial_ItemsByCate.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T11:05:33.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "BookStore\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "BookStore\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAuwBYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:06:26.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "main.js",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Content\\Assets\\js\\main.js",
-              "RelativeDocumentMoniker": "BookStore\\Content\\Assets\\js\\main.js",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Content\\Assets\\js\\main.js",
-              "RelativeToolTip": "BookStore\\Content\\Assets\\js\\main.js",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-03T06:54:43.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_MenuProductCate.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Menu\\_MenuProductCate.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Views\\Menu\\_MenuProductCate.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Menu\\_MenuProductCate.cshtml",
-              "RelativeToolTip": "BookStore\\Views\\Menu\\_MenuProductCate.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADYAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T06:11:00.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "BookStore\\Controllers\\MenuController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "BookStore\\Controllers\\MenuController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T06:06:44.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\TrangChu\\Index.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Views\\TrangChu\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\TrangChu\\Index.cshtml",
-              "RelativeToolTip": "BookStore\\Views\\TrangChu\\Index.cshtml",
-              "ViewState": "AQIAANQCAAAAAAAAAAAqwAoDAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T05:30:15.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\BookController.cs",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Controllers\\BookController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:55:12.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_MainLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Shared\\_MainLayout.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Views\\Shared\\_MainLayout.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Shared\\_MainLayout.cshtml",
-              "RelativeToolTip": "BookStore\\Views\\Shared\\_MainLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T07:02:34.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "BookStore\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "BookStore\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAGgAAAAAAAAAAADwv5IAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:30:35.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Book\\Create.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADEAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T10:20:04.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAACwAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T10:35:21.571Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "BookStore\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T06:18:44.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "BookStore\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Models\\Book.cs",
-              "RelativeToolTip": "BookStore\\Models\\Book.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAB0AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T10:19:06.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CouponController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\CouponController.cs",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Controllers\\CouponController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\CouponController.cs",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Controllers\\CouponController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T06:30:16.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Book\\Delete.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAADIAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T10:37:04.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Book\\Index.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Book\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Book\\Index.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Book\\Index.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGUAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T10:05:12.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:50:54.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Coupon\\Create.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Coupon\\Create.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Coupon\\Create.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Coupon\\Create.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAiwDcAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T06:38:49.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Coupon\\Index.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Coupon\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Coupon\\Index.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Coupon\\Index.cshtml",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGsAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T06:33:30.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\TacGia\\Index.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\TacGia\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\TacGia\\Index.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\TacGia\\Index.cshtml",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAHIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T10:25:55.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGcAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T09:53:32.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TacGiaController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\TacGiaController.cs",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Controllers\\TacGiaController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\TacGiaController.cs",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Controllers\\TacGiaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T10:24:39.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T07:12:14.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T06:33:35.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Coupon\\Delete.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Coupon\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Coupon\\Delete.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Coupon\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T06:54:49.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T09:51:29.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Coupon\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Coupon\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Coupon\\Edit.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Coupon\\Edit.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAiwB0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T06:53:47.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T09:51:02.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\TacGia\\Create.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\TacGia\\Create.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\TacGia\\Create.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\TacGia\\Create.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T10:27:22.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\TacGia\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\TacGia\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\TacGia\\Edit.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\TacGia\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T10:29:26.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\TacGia\\Delete.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\TacGia\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\TacGia\\Delete.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\TacGia\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T10:31:51.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Web.config",
-              "RelativeDocumentMoniker": "BookStore\\Web.config",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Web.config",
-              "RelativeToolTip": "BookStore\\Web.config",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAEgAAADTAQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-31T09:59:22.2Z",
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Content\\Assets\\css\\style.css",
+              "RelativeDocumentMoniker": "BookStore\\Content\\Assets\\css\\style.css",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Content\\Assets\\css\\style.css",
+              "RelativeToolTip": "BookStore\\Content\\Assets\\css\\style.css",
+              "ViewState": "AQIAAAoBAAAAAAAAAAAlwCMBAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T15:58:15.906Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "DBBookModel.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Models\\DBBookModel.edmx",
-              "RelativeDocumentMoniker": "BookStore\\Models\\DBBookModel.edmx",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Models\\DBBookModel.edmx [Diagram1]",
-              "RelativeToolTip": "BookStore\\Models\\DBBookModel.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-10-31T10:00:50.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Documents\\S\u00E1ch\\BookStore\\BookStore\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "BookStore\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T09:51:15.069Z"
             }
           ]
         }
