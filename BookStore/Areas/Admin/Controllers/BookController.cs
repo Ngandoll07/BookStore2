@@ -112,6 +112,7 @@ namespace BookStore.Areas.Admin.Controllers
                 IDCAT = book.IDCAT,
                 GIA = book.GIA,
                 BookDescrip = book.BookDescrip,
+                StockQuantity = book.StockQuantity,
                 HinhSach = book.HinhSach,
                 IDCoupon = book.IDCoupon,
                 IDTG = book.IDTG
@@ -141,6 +142,7 @@ namespace BookStore.Areas.Admin.Controllers
                         existingBook.IDCAT = newBook.IDCAT;
                         existingBook.GIA = newBook.GIA;
                         existingBook.BookDescrip = newBook.BookDescrip;
+                        existingBook.StockQuantity = newBook.StockQuantity;
                         existingBook.IDCoupon = newBook.IDCoupon;
                         existingBook.IDTG = newBook.IDTG;
 

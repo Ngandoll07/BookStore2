@@ -72,6 +72,7 @@
                     <th>Tác giả</th>
                     <th>IDLoai</th>
                     <th>Giá</th>
+                    <th>Số lượng tồn</th>
                     <th>Mô tả</th>
                     <th>Ảnh</th>
                     <th>Mã được áp dụng</th>
@@ -90,6 +91,7 @@
                             <td>@item.IDTG</td>
                             <td>@item.IDCAT</td>
                             <td>@String.Format("{0:N0} ₫", item.GIA)</td>
+                            <td>@item.StockQuantity</td>
                             <td>@item.BookDescrip</td>
                             <td>
                                 <div>
