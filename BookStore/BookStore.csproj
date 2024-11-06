@@ -1077,6 +1077,7 @@
     <Content Include="Views\Category\_PartialMenuCate.cshtml" />
     <Content Include="Views\Cart\Index.cshtml" />
     <Content Include="Views\Cart\BagCart.cshtml" />
+    <Content Include="Views\Cart\EmptyCart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

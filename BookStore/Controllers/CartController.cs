@@ -14,7 +14,7 @@ namespace BookStore.Controllers
         public ActionResult Index()
         {
             if (Session["Cart"] == null)
-                return RedirectToAction("Index","Cart");
+                return View("EmptyCart");
             Cart _cart = Session["Cart"] as Cart;
             return View(_cart);
         }
@@ -65,8 +65,16 @@ namespace BookStore.Controllers
                 return RedirectToAction("Index", "Cart");
             }
 
-            // Gọi phương thức cập nhật số lượng sản phẩm trong giỏ hàng
-            cart.UpDateQuantity(id_Book, _quantity);
+            // Nếu số lượng là 0, xóa sản phẩm khỏi giỏ hàng
+            if (_quantity == 0)
+            {
+                cart.ReMoveItem(id_Book);
+            }
+            else
+            {
+                // Ngược lại, cập nhật số lượng sản phẩm
+                cart.UpDateQuantity(id_Book, _quantity);
+            }
 
             return RedirectToAction("Index", "Cart");
         }

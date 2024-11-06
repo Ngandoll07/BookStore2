@@ -45,7 +45,11 @@ namespace BookStore.Models
         {
             var item=items.Find(s=>s._book.ID == ID);
             if (item != null)
-                item.quanTity=newQuantity;
+            {
+                if (items.Find(s => s._book.StockQuantity >= newQuantity) != null)
+                    item.quanTity = newQuantity;
+                else item.quanTity = 1;
+            }    
         }
         public void ReMoveItem(string ID)
         {

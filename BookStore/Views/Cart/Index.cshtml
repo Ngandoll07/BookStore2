@@ -18,63 +18,68 @@
 <div class="container-fluid py-5">
     <div class="container py-5">
         <div class="table-responsive">
-           @if (Model != null)
-           {
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Products</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Quantity</th>
-                        <th scope="col">Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model.Items)
-                    {
-                        decimal total = item.quanTity * (decimal)item._book.GIA.Value;
+            <a href="@Url.Action("Index", "Category")" class="btn btn-primary">Tiếp thục mua hàng</a>
+            @if (Model != null)
+            {
+                <table class="table">
+                    <thead>
                         <tr>
-                            <th scope="row">
-                                <div class="d-flex align-items-center">
-                                    <img src="@Url.Content(item._book.HinhSach)" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
-                                </div>
-                            </th>
-                            <td>
-                                <p class="mb-0 mt-4">@Html.DisplayFor(model=>item._book.NameBook)</p>
-                            </td>
-                            <td>
-                                <p class="mb-0 mt-4">@Html.DisplayFor(model => item._book.GIA)</p>
-                            </td>
-                            <td>
-                                @using (Html.BeginForm("UpDateCartQuantity", "Cart"))
-                                {
-                                    <input type="hidden" name="idBook" value="@item._book.ID"/>
-                                    <div class="input-group quantity mt-4" style="width: 100px;">
-                                        <div class="input-group-btn">
-                                            <button class="btn btn-sm btn-minus rounded-circle bg-light border">
-                                                <i class="fa fa-minus"></i>
-                                            </button>
-                                        </div>
-                                        <input type="text" name="cartQuantity" class="form-control form-control-sm text-center border-0" value="@item.quanTity">
-                                        <div class="input-group-btn">
-                                            <button class="btn btn-sm btn-plus rounded-circle bg-light border">
-                                                <i class="fa fa-plus"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                }
-                            </td>
-                            <td>
-                                <p class="mb-0 mt-4">@total</p>
-                            </td>
-
+                            <th scope="col">Products</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Total</th>
                         </tr>
-                    }
-                </tbody>
-            </table>
-}
-</div>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Items)
+                        {
+                            decimal total = item.quanTity * (decimal)item._book.GIA.Value;
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex align-items-center">
+                                        <img src="@Url.Content(item._book.HinhSach)" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
+                                    </div>
+                                </th>
+                                <td>
+                                    <p class="mb-0 mt-4">@Html.DisplayFor(model => item._book.NameBook)</p>
+                                </td>
+                                <td>
+                                    <p class="mb-0 mt-4">@Html.DisplayFor(model => item._book.GIA)</p>
+                                </td>
+                                <td>
+                                    @using (Html.BeginForm("UpDateCartQuantity", "Cart"))
+                                    {
+                                        <input type="hidden" name="idBook" value="@item._book.ID" />
+                                        <div class="input-group quantity mt-4" style="width: 100px;">
+                                            <div class="input-group-btn">
+                                                <button class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                                    <i class="fa fa-minus"></i>
+                                                </button>
+                                            </div>
+                                            <input type="text" name="cartQuantity" class="form-control form-control-sm text-center border-0" value="@item.quanTity">
+                                            <div class="input-group-btn">
+                                                <button class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                                    <i class="fa fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    }
+                                </td>
+                                <td>
+                                    <p class="mb-0 mt-4">@total</p>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                @Html.Action("EmptyCart")
+            }
+        </div>
         <div class="mt-5">
             <input type="text" class="border-0 border-bottom rounded me-5 py-3 mb-4" placeholder="Coupon Code">
             <button class="btn border-secondary rounded-pill px-4 py-3 text-primary" type="button">Apply Coupon</button>
