@@ -4,6 +4,11 @@
 {
     <div class="col-lg-8 text-end">
         <ul class="nav nav-pills d-inline-flex text-center mb-5" id="categoryList">
+            <li>
+                <div class="d-flex m-2 py-2 category-tab" data-bs-toggle="pill">
+                    @Html.ActionLink("Tất cả sách", "Index", "Home", new { id = (string)null }, null)
+                </div>
+            </li>
             @for (int i = 0; i < Model.Count(); i++)
             {
                 var item = Model.ElementAt(i);
@@ -11,10 +16,11 @@
                 // Show the first three items as tabs
                 if (i < 3)
                 {
+
                     <li class="nav-item">
-                        <a class="d-flex m-2 py-2 rounded-pill category-tab" data-bs-toggle="pill" href="@item.NameCate">
-                            <span class="text-dark" style="width: 130px;">@item.NameCate</span>
-                        </a>
+                        <div class="d-flex m-2 py-2 category-tab" data-bs-toggle="pill">
+                            @Html.ActionLink(item.NameCate, "Index", "Home", new { id = item.ID }, null)
+                        </div>
                     </li>
                 }
                 else
@@ -30,11 +36,11 @@
         </ul>
 
         <!-- Dropdown for extra items -->
-        <div class="dropdown d-inline-block" id="extraCategoryDropdown" style="display: none;">
+        <div class="dropdown d-inline-block" style="display: none;">
             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 More Categories
             </button>
-            <ul class="dropdown-menu dropdown-menu-end" id="extraCategoryList">
+            <ul class="dropdown-menu dropdown-menu-end" >
                 <!-- Extra categories will be shown here -->
                 @for (int i = 0; i < Model.Count(); i++)
                 {
@@ -44,20 +50,12 @@
                     if (i > 3)
                     {
                         <li class="nav-item">
-                            <a class="d-flex m-2 py-2 category-tab" data-bs-toggle="pill" href="@item.NameCate">
-                                <span class="text-dark" style="width: 130px;">@item.NameCate</span>
-                            </a>
+                            <div class="d-flex m-2 py-2 category-tab" data-bs-toggle="pill">
+                                @Html.ActionLink(item.NameCate, "Index", "Home", new { id = item.ID }, null)
+                            </div>
                         </li>
                     }
-                    else
-                    {
-                        // Add remaining items to a hidden dropdown list
-                        <li class="nav-item d-none extra-category">
-                            <a class="dropdown-item" href="#tab-@item.NameCate">
-                                <span class="text-dark">@item.NameCate</span>
-                            </a>
-                        </li>
-                    }
+                    
                 }
                 </ul>
         </div>

@@ -29,7 +29,7 @@
         } 
     });
     
-    document.addEventListener("DOMContentLoaded", function () {
+    /*document.addEventListener("DOMContentLoaded", function () {
         const extraCategories = document.querySelectorAll(".extra-category");
         const extraCategoryDropdown = document.getElementById("extraCategoryDropdown");
         const extraCategoryList = document.getElementById("extraCategoryList");
@@ -47,7 +47,7 @@
         }
 
         moveExtraCategoriesToDropdown(); // G?i hàm ?? chuy?n các m?c th?a vào dropdown
-    });
+    });*/
 
 
    // Back to top button

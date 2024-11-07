@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<BookStore.Models.Book>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_MainLayout.cshtml";
@@ -20,7 +20,7 @@
                 <div id="carouselId" class="carousel slide position-relative" data-bs-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active rounded">
-                            <img src="~/Content/images/bst1.jpg" class="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide">
+                            <img src="~/Content/images/bst2.jpg" class="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide">
                         </div>
                     </div>
                 </div>
@@ -89,14 +89,50 @@
                 <div class="col-lg-4 text-start">
                     <h1>Sách mới</h1>
                 </div>
-              @Html.Action("MenuProductCate", "Menu")
+                @Html.Action("MenuProductCate", "Menu")
             </div>
             <div class="tab-content">
                 <div id="tab-1" class="tab-pane fade show p-0 active">
                     <div class="row g-4">
                         <div class="col-lg-12">
                             <div class="row g-4">
-                                @Html.Action("Partial_ItemsByCate", "Product")
+                                <div class="row g-4">
+                                    @foreach (var item in Model)
+                                    {
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative product-item border border-secondary">
+                                                <div class="product-img">
+                                                    <img src="@item.HinhSach" class="img-fluid w-100 rounded-top" alt="@item.NameBook">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">
+                                                    @item.Category.NameCate
+                                                </div>
+                                                <div class="p-4 rounded-bottom">
+                                                    <h4 class="product-title">@item.NameBook</h4>
+                                                    <p>
+                                                        @{
+                                                            var words = item.BookDescrip?.Split(' ') ?? new string[0];
+                                                            var shortDescription = words.Length > 20
+                                                                ? string.Join(" ", words.Take(20)) + "..."
+                                                                : item.BookDescrip ?? "Mô tả chưa có sẵn.";
+                                                        }
+                                                        @shortDescription
+                                                        @if (words.Length > 20)
+                                                        {
+                                                            <a href="@Url.Action("ProductDetail", "Product", new { id = item.ID })" class="text-primary">Xem thêm</a>
+                                                        }
+                                                    </p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">@String.Format("{0:N0} ₫", item.GIA)</p>
+                                                        <a href="/cart/addtocart/@item.ID" class="btn border border-secondary rounded-pill px-3 text-primary">
+                                                            <i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
                             </div>
                         </div>
                     </div>

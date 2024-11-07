@@ -145,6 +145,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\CheckOutController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
@@ -588,6 +589,9 @@
     <Content Include="Content\Assets\img\best-product-4.jpg" />
     <Content Include="Content\Assets\img\best-product-5.jpg" />
     <Content Include="Content\Assets\img\best-product-6.jpg" />
+    <Content Include="Content\Assets\img\bgbook-1.png" />
+    <Content Include="Content\Assets\img\bgbook.png" />
+    <Content Include="Content\Assets\img\bookbg.jpg" />
     <Content Include="Content\Assets\img\cart-page-header-img.jpg" />
     <Content Include="Content\Assets\img\featur-1.jpg" />
     <Content Include="Content\Assets\img\featur-2.jpg" />
@@ -601,6 +605,8 @@
     <Content Include="Content\Assets\img\hero-img-1.png" />
     <Content Include="Content\Assets\img\hero-img-2.jpg" />
     <Content Include="Content\Assets\img\hero-img.jpg" />
+    <Content Include="Content\Assets\img\library.jpg" />
+    <Content Include="Content\Assets\img\nensach.png" />
     <Content Include="Content\Assets\img\payment.png" />
     <Content Include="Content\Assets\img\single-item.jpg" />
     <Content Include="Content\Assets\img\testimonial-1.jpg" />
@@ -647,7 +653,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\images\bgbook.png" />
     <Content Include="Content\images\bst1.jpg" />
+    <Content Include="Content\images\bst2.jpg" />
+    <Content Include="Content\images\poster.png" />
     <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -1078,6 +1087,7 @@
     <Content Include="Views\Cart\Index.cshtml" />
     <Content Include="Views\Cart\BagCart.cshtml" />
     <Content Include="Views\Cart\EmptyCart.cshtml" />
+    <Content Include="Views\CheckOut\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

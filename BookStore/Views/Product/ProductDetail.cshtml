@@ -31,7 +31,7 @@
                         <h4 class="fw-bold mb-3">@Model.NameBook</h4>
                         <p class="mb-3">Loại: @Model.Category.NameCate</p>
                         <p class="mb-3">Tác giả: @Model.TacGia.NameAuthor</p>
-                        <h5 class="fw-bold mb-3">@Model.GIA</h5>
+                        <h5 class="fw-bold mb-3">@String.Format("{0:N0} ₫",Model.GIA)</h5>
                         <div class="d-flex mb-4">
                             <i class="fa fa-star text-secondary"></i>
                             <i class="fa fa-star text-secondary"></i>
@@ -64,12 +64,7 @@
                         <div class="tab-content mb-5">
                             <div class="tab-pane active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
                                 <p>
-                                    The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.
-                                    Susp endisse ultricies nisi vel quam suscipit
-                                </p>
-                                <p>
-                                    Sabertooth peacock flounder; chain pickerel hatchetfish, pencilfish snailfish filefish Antarctic
-                                    icefish goldeye aholehole trumpetfish pilot fish airbreathing catfish, electric ray sweeper.
+                                    @Model.BookDescrip
                                 </p>
                             </div>
                             <div class="tab-pane" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
