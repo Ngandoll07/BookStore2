@@ -49,27 +49,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="mb-3">
-                                    <h4>Tác giả</h4>
-                                    <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-1" name="Categories-1" value="Beverages">
-                                        <label for="Categories-1"> Organic</label>
-                                    </div>
-                                    <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-2" name="Categories-1" value="Beverages">
-                                        <label for="Categories-2"> Fresh</label>
-                                    </div>
-                                    <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-3" name="Categories-1" value="Beverages">
-                                        <label for="Categories-3"> Sales</label>
-                                    </div>
-                                    <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-4" name="Categories-1" value="Beverages">
-                                        <label for="Categories-4"> Discount</label>
-                                    </div>
-                                    <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-5" name="Categories-1" value="Beverages">
-                                        <label for="Categories-5"> Expired</label>
-                                    </div>
+                                    @Html.Action("Partial_TacGia", "TacGia")
                                 </div>
                             </div>
                             <div class="col-lg-12">
@@ -165,6 +145,7 @@
                                                         <a href="@Url.Action("ProductDetail", "Product", new { id = item.ID })" class="text-primary">Xem thêm</a>
                                                     }
                                                 </p>
+                                                <p class="text-bg-info">Tác giả <span class="text-secondary">@item.TacGia.NameAuthor</span></p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">@String.Format("{0:N0} ₫", item.GIA)</p>
                                                     <a href="/cart/addtocart/@item.ID" class="btn border border-secondary rounded-pill px-3 text-primary">

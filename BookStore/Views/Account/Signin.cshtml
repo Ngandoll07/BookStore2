@@ -10,7 +10,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BookStore</title>
+    <title>Modernize Free</title>
     <link rel="shortcut icon" type="image/png" href="~/Assets/assets/images/logos/favicon.png" />
     <link rel="stylesheet" href="~/Assets/assets/css/styles.min.css" />
 </head>
@@ -25,36 +25,33 @@
                     <div class="col-md-8 col-lg-6 col-xxl-3">
                         <div class="card mb-0">
                             <div class="card-body">
-                                <a href="/home/index" class="text-nowrap logo-img text-center d-block py-3 w-100">
-                                    <img src="~/Assets/assets/images/logos/favicon.png" width="30" height="30" alt="" />
-                                    <span class="mb-3"> BookStore</span>
+                                <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                                    <img src="~/Assets/assets/images/logos/dark-logo.svg" width="180" alt="">
                                 </a>
                                 <p class="text-center">Your Social Campaigns</p>
-                                @using (Html.BeginForm())
-                                {
-                                    @Html.AntiForgeryToken()
-                                    <div class="form-horizontal">
+                                <form>
+                                    @using (Html.BeginForm())
+                                    {
+                                        @Html.AntiForgeryToken()
                                         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
                                         <div class="mb-4">
-                                            @Html.LabelFor(m => m.Email, "Email")
-                                            @Html.EditorFor(m => m.Email, new { htmlAttributes = new { @class = "form-control", @type = "email", required = "required" } })
-                                            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                            <label for="email">Email</label>
+                                            <input type="email" name="email" class="form-control" required />
                                         </div>
                                         <div class="mb-4">
-                                            @Html.LabelFor(m => m.HashedPassword, "Mật khẩu")
-                                            @Html.EditorFor(m => m.HashedPassword, new { htmlAttributes = new { @class = "form-control", @type = "password", required = "required" } })
-                                            @Html.ValidationMessageFor(m => m.HashedPassword, "", new { @class = "text-danger" })
+                                            <label for="password">Mật khẩu</label>
+                                            <input type="password" name="password" class="form-control" required />
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between mb-4">
-                                            <a class="text-primary fw-bold" href="./index.html">Forgot Password?</a>
+                                            <a class="text-primary fw-bold" href="./index.html">Forgot Password ?</a>
                                         </div>
-                                        <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Đăng nhập</button>
+                                        <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign In</button>
                                         <div class="d-flex align-items-center justify-content-center">
-                                            <p class="fs-4 mb-0 fw-bold">Chưa có tài khoản?</p>
-                                            <a class="text-primary fw-bold ms-2" href="@Url.Action("Register", "Account")">Đăng ký</a>
+                                            <p class="fs-4 mb-0 fw-bold">New to Modernize?</p>
+                                            <a class="text-primary fw-bold ms-2" href="/account/register">Create an account</a>
                                         </div>
-                                    </div>
-                                }
+                                    }
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -62,8 +59,8 @@
             </div>
         </div>
     </div>
-    <script src="~/Assets/assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="~/Assets/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Content/Assets/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/Content/Assets/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

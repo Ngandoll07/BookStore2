@@ -1,0 +1,19 @@
+﻿@model IEnumerable<BookStore.Models.TacGia>
+
+@if (Model != null && Model.Any())
+{
+    <h4>Tác giả</h4>
+
+    foreach (var item in Model) // Limit to the first 5 categories
+    {
+        <div class="mb-2">
+            <input type="radio" class="me-2" id="Categories-2" name="Categories-1" value="Beverages">
+            @Html.ActionLink(item.NameAuthor, "Index", "Category", new { id = item.ID }, null)
+        </div>
+    }
+
+}
+else
+{
+    < p > No categories available.</ p >
+}

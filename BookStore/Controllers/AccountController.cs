@@ -146,5 +146,54 @@ namespace BookStore.Controllers
             Session.Clear(); // Xóa tất cả session
             return RedirectToAction("Index", "Home");
         }
+        public ActionResult Signin(string message = null)
+        {
+            ViewBag.Message = message; // Hiển thị thông báo (nếu có)
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Signin(User _user)
+        {
+            if (ModelState.IsValid)
+            {
+                // Tìm người dùng trong cơ sở dữ liệu theo email
+                var user = db.Users.SingleOrDefault(u => u.Email == _user.Email);
+
+                if (user != null)
+                {
+                    // Sử dụng phương thức VerifyPassword để so sánh mật khẩu đã nhập với mật khẩu đã băm
+                    if (VerifyPassword(_user.HashedPassword, user.HashedPassword))
+                    {
+                        // Lưu thông tin người dùng vào session
+                        Session["UserName"] = user.NameUser;
+                        Session["UserEmail"] = user.Email;
+                        Session["UserRole"] = user.Role;
+
+                        // Chuyển hướng dựa trên vai trò của người dùng
+                        if (user.Role == "Admin")
+                        {
+                            return RedirectToAction("Index", "Home", new { area = "Admin" });
+                        }
+                        else
+                        {
+                            return RedirectToAction("Index", "Home");
+                        }
+                    }
+                    else
+                    {
+                        // Thông báo nếu mật khẩu không đúng
+                        ModelState.AddModelError("", "Email hoặc mật khẩu không đúng.");
+                    }
+                }
+                else
+                {
+                    // Thông báo nếu không tìm thấy người dùng
+                    ModelState.AddModelError("", "Email hoặc mật khẩu không đúng.");
+                }
+            }
+
+            return View(_user);
+        }
     }
 }

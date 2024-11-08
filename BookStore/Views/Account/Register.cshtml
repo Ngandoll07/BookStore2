@@ -1,60 +1,156 @@
 ﻿@model BookStore.Models.User
 
 @{
-    ViewBag.Title = "Đăng ký";
+    Layout = null;
 }
 
-<h2>Đăng ký</h2>
+<!doctype html>
+<html lang="en">
 
-@using (Html.BeginForm())
-{
-    @Html.AntiForgeryToken()
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modernize Free</title>
+    <link rel="shortcut icon" type="image/png" href="~/Assets/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/Assets/assets/css/styles.min.css" />
+</head>
 
-    <div class="form-horizontal">
-        <h4>User</h4>
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-
-        <div class="form-group">
-            @Html.LabelFor(m => m.NameUser, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(m => m.NameUser, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(m => m.NameUser, "", new { @class = "text-danger" })
+<body>
+    <!--  Body Wrapper -->
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+         data-sidebar-position="fixed" data-header-position="fixed">
+        <div class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center w-100">
+                <div class="row justify-content-center w-100">
+                    <div class="col-md-8 col-lg-6 col-xxl-3">
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <a href="@Url.Action("Register", "Account")" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                                    <img src="~/Assets/assets/images/logos/favicon.png" width="30" height="30" alt="" />
+                                    <span class="mb-3"> BookStore</span>
+                                </a>
+                                <p class="text-center">Your Social Campaigns</p>
+                                @using (Html.BeginForm())
+                                {
+                                    @Html.AntiForgeryToken()
+                            <div class="form-horizontal">
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                <div class="mb-4">
+                                    @Html.LabelFor(m => m.NameUser, "Tên người dùng")
+                                    @Html.EditorFor(m => m.NameUser, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                    @Html.ValidationMessageFor(m => m.NameUser, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="mb-4">
+                                    @Html.LabelFor(m => m.Email, "Email")
+                                    @Html.EditorFor(m => m.Email, new { htmlAttributes = new { @class = "form-control", @type = "email", required = "required" } })
+                                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="mb-4">
+                                    @Html.LabelFor(m => m.Phone, "Số điện thoại")
+                                    @Html.EditorFor(m => m.Phone, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                    @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="mb-4">
+                                    @Html.LabelFor(m => m.HashedPassword, "Mật khẩu")
+                                    @Html.EditorFor(m => m.HashedPassword, new { htmlAttributes = new { @class = "form-control", @type = "password", required = "required" } })
+                                    @Html.ValidationMessageFor(m => m.HashedPassword, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                    <a class="text-primary fw-bold" href="./index.html">Forgot Password?</a>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Đăng ký</button>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <p class="fs-4 mb-0 fw-bold">Đã có tài khoản?</p>
+                                    <a class="text-primary fw-bold ms-2" href="@Url.Action("Login", "Account")">Đăng nhập</a>
+                                </div>
+                            </div>
+                                }
+                                @*<form>
+            <div class="mb-3">
+                <label for="exampleInputtext1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputtext1" aria-describedby="textHelp">
             </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(m => m.Email, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(m => m.Email, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(m => m.Phone, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(m => m.Phone, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "text-danger" })
+            <div class="mb-4">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(m => m.HashedPassword, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(m => m.HashedPassword, new { htmlAttributes = new { @class = "form-control", type = "password" } })
-                @Html.ValidationMessageFor(m => m.HashedPassword, "", new { @class = "text-danger" })
+            <a href="./index.html" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign Up</a>
+            <div class="d-flex align-items-center justify-content-center">
+                <p class="fs-4 mb-0 fw-bold">Already have an Account?</p>
+                <a class="text-primary fw-bold ms-2" href="./authentication-login.html">Sign In</a>
             </div>
-        </div>
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Đăng ký" class="btn btn-default" />
+        </form>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-}
+    <script src="~/Assets/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/Assets/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-<div>
-    <p>Đã có tài khoản? <a href="@Url.Action("Login", "Account")">Đăng nhập</a></p>
-</div>
+</html>
+@*@{
+        ViewBag.Title = "Đăng ký";
+    }
+
+    <h2>Đăng ký</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>User</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.NameUser, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(m => m.NameUser, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(m => m.NameUser, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Email, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(m => m.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Phone, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(m => m.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.HashedPassword, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(m => m.HashedPassword, new { htmlAttributes = new { @class = "form-control", type = "password" } })
+                    @Html.ValidationMessageFor(m => m.HashedPassword, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Đăng ký" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        <p>Đã có tài khoản? <a href="@Url.Action("Login", "Account")">Đăng nhập</a></p>
+    </div>*@

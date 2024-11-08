@@ -27,6 +27,22 @@ namespace BookStore.Controllers
             }
         }
 
+        public ActionResult DiscountedBooks()
+        {
+            // Lọc sách có mã giảm giá (các sách có Coupon liên kết)
+            var discountedBooks = db.Books.Where(b => b.IDCoupon != null && b.Coupon != null).ToList();
+            return View(discountedBooks);
+        }
+        public ActionResult BestSellers()
+        {
+            var bestSellingBooks = db.Books
+             .Where(b => b.StockQuantity <= 21) // Điều kiện cho sách bán chạy (số lượng tồn kho <= 20)
+             .Take(8) // Lấy tối đa 8 cuốn sách
+             .ToList();
+
+            return View(bestSellingBooks); // Trả về view với danh sách sách bán chạy
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
